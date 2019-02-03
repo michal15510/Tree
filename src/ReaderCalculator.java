@@ -9,7 +9,6 @@ public class ReaderCalculator {
         BufferedReader reader = null;
 
 
-
         try {
             reader = new BufferedReader(new FileReader(file));
             String text = null;
@@ -30,7 +29,6 @@ public class ReaderCalculator {
             }
         }
 
-//print out the list
         System.out.println(list);
         sumOfNumbers(list);
     }
